@@ -14,7 +14,6 @@ fn main() {
     
     let secret_number = rand::thread_rng().gen_range(1,101); // generate random secret_number
     
-    println! ("Secret number is {}", secret_number);
     let mut guess = String::new();  // create mutable string guess to store user's input
     
     loop {                                  // loop until user guesses the number
